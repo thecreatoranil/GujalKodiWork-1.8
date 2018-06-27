@@ -223,18 +223,19 @@ provider-name="Gujal">
 </extension>
 </addon>
 
-<addon id="repository.Anil" name="Anil Addon Repository" version="1.8" provider-name="Anil">
-	<extension point="xbmc.addon.repository" name="Anil Addons Repository">
+<addon id="repository.gujal" name="Gujal Addon Repository" version="1.8" provider-name="Gujal">
+	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
 		<info compressed="false">https://raw.github.com/myghspace/GujalKodiWork-1.8/master/addons.xml</info>
         <checksum>https://raw.github.com/myghspace/GujalKodiWork-1.8/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.github.com/myghspace/GujalKodiWork-1.8/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Third party Addons for Kodi</summary>
-		<description>Anil Addons Repository over Gujal</description>
+		<description>Gujal Addons Repository</description>
 		<platform>all</platform>
 	</extension>
 </addon>
+
 
 <addon id="script.video.F4mProxy"
 	     name="F4mProxy"
