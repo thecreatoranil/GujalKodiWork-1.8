@@ -54,7 +54,7 @@ provider-name="gujal">
 </addon>
 
 <addon id="plugin.video.deccandelight"
-version="1.6.3"
+version="1.6.4"
 name="Deccan Delight"
 provider-name="gujal">
 <requires>
@@ -65,7 +65,7 @@ provider-name="gujal">
   <import addon="script.common.plugin.cache" version="2.5.5"/>
   <import addon="script.module.youtube.dl" version="17.709.0"/>
   <import addon="plugin.video.f4mTester" version="2.2.3"/>
-  <import addon="repository.gujal" version="1.7"/>
+  <import addon="repository.gujal" version="1.8"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
@@ -78,7 +78,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
   <platform>all</platform>
   <website>https://github.com/Gujal00/GujalKodiWork</website>
   <disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
-  <news>[B]Version 1.6.3 - 22 Jun 2018[/B] - Scraper Fixes</news>
+  <news>[B]Version 1.6.4 - 22 Jun 2018[/B] - Scraper Fixes</news>
   <assets>
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
